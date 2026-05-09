@@ -24,6 +24,6 @@ collected raw data from Kaggle
 
 Screenshots / Demos
 Show what the dashboard look like.
-Example :
+Example : https://github.com/harshmahindrakar26-boop/E-commerce-dashboard-H/blob/main/E-commerce%20report.png
 
 
