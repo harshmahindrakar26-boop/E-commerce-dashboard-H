@@ -1,19 +1,12 @@
-# E-commerce-dashboard-H
-This e-commerce sales dashboard, built with Power BI, provides a comprehensive overview of retail performance and customer behavior. It features a high-contrast design optimized for quick data visualization and decision-making. 
-Key Dashboard Features • Executive Summary Tiles: Instant access to high-level KPIs including Total Sales ($10M), Average Sales, Total Quantity Sold, and Average Customer Ratings. 
-• Product Performance: 
+1. Business ProblemThe organization was struggling with fragmented data silos, making it difficult to understand which product categories and payment methods were driving revenue. Without a centralized view, leadership lacked clarity on regional performance and customer satisfaction trends, leading to inefficient inventory management and missed promotional opportunities.
 
-	• Sales Amount by Category: Identifies top-performing sectors like Grocery ($1.6M) and Electronics ($1.5M). 
-	• Quantity Sold by Category: A bar chart detail of volume leaders. 
+2. Purpose of the DashboardThe dashboard was created to serve as a single source of truth for sales operations. By consolidating transaction data, it allows stakeholders to monitor real-time performance, track seasonal trends, and evaluate the effectiveness of various payment gateways across different geographical regions.
 
-• Time-Series Analysis: A dynamic Sales Trend Over Time graph (Jan 2023 – Jan 2024) to track seasonal peaks and market fluctuations. 
-• Geographic Insights: An interactive Sales by Region world map to visualize global market penetration. 
-• Financial & Payment Analysis: 
+3. Goal of Root Cause AnalysisMy goal was to identify growth bottlenecks and underperforming segments. Specifically, I aimed to analyze why certain categories lagged in sales despite high quantity sold, and to determine if specific regions or payment methods were experiencing friction that hindered total revenue.
 
-	• Payment Method Analysis: A donut chart showing a balanced split between Credit Cards, Debit Cards, UPI, and COD. 
-	• Regional Payment Breakdown: A matrix analysis correlating payment preferences with specific geographic regions (North, South, Central). 
+4.  Key Insights & Actionable RecommendationsKey Insights:Revenue Concentration: Top-tier categories (Grocery/Electronics) generate significantly more revenue ($1.6M+) compared to lower-tier ones like Books and Toys ($1.4M).Trend Warning: There is a sharp decline in sales entering early 2024, suggesting a post-holiday slump or potential supply chain issues.Payment Parity: No single payment method dominates; however, Debit Cards (22.59%) and COD (21.81%) are the most preferred.
 
-• Customer Feedback: Sales Performance by Rating histogram to correlate revenue with product satisfaction scores. 
+5. Strategic Recommendations:Address the Downturn: Investigate the Q1 2024 sales drop. If it’s seasonal, launch "Spring Sale" campaigns; if it’s operational, audit the supply chain for stockouts.Optimize Low-Performing Categories: Implement "Bundle Deals" for the Books and Toys categories to increase their average order value.Incentivize Digital Payments: Since COD is still very high, offer a 2–5% discount on UPI/Credit Card transactions to reduce the logistics costs and return risks associated with Cash on Delivery.
 
 Tech Stack • Tool: Power BI / Power Query 
 • Data Processing: DAX (Data Analysis Expressions) for custom measures and KPI calculations. 
